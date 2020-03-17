@@ -1,0 +1,98 @@
+.main-content {
+    margin-left: 80px;
+    margin-top: 15px;
+    color: #000;
+    height: 98vh;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: scroll;
+    justify-content: center;
+}
+
+.card {
+    width: 100%;
+    background: #ffc0c0;
+    margin-bottom: 20px;
+    height: fit-content;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.card .left-side {
+    flex: 1;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.card .right-side {
+    flex: 1.8;
+    box-sizing: border-box;
+    padding: 10px;
+}
+.card .left-side .top h3,
+.card .right-side .top-university-info h3 {
+    margin: 0;
+    font-weight: 400;
+}
+
+.card .left-side .bottom .value h4{
+    font-weight: 400;
+}
+
+.card .left-side .bottom {
+    margin-top: 15px;
+}
+.card .left-side .bottom h4 {
+    margin: 0 0 5px 0;
+}
+
+.card .left-side .bottom .subject h4{
+    font-weight: 200;
+
+}
+
+.card .left-side .bottom .subject-and-value {
+    display: flex;
+    justify-content: space-between
+}
+
+.card .right-side .top-university-info h3 {
+    text-align: center;
+
+}
+
+.card .right-side .top-university-info h4 {
+    background: rgba(0,0,0,0.15);
+    font-weight: 400;
+    text-align: center;
+    border-radius: 5px;
+    align-items: center;
+    width: 50%;
+    margin: 20px auto;
+}
+
+.card .right-side .submissionApply {
+text-align: center;
+}
+
+.main-content input[type="submit"] {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    position: relative;
+    display: block;
+    padding: 4px 8px;
+    color: #FFF;
+    margin: 0 auto;
+    background: #9eafac;;
+    font-size: 20px;
+    text-align: center;
+    font-style: normal;
+    width: 30%;
+    border: 1px solid #4e5f5b;
+    border-width: 1px 1px 3px;
+    margin-top: 40px;
+}
+.main-content input[type="submit"]:hover
+{
+    background: #829091;
+}

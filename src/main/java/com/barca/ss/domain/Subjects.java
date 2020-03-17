@@ -1,0 +1,7 @@
+package com.barca.ss.domain;
+
+public enum Subjects {
+    UKRAINIAN, HISTORY, MATH,
+    BIOLOGY, GEOGRAPHY, PHYSICS, CHEMISTRY,
+    ENGLISH, SPANISH, GERMAN, FRENCH, CERTIFICATE
+}

@@ -1,0 +1,71 @@
+.main-content {
+    margin-left: 80px;
+    margin-top: 15px;
+    color: #000;
+    height: 98vh;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: scroll;
+    justify-content: center;
+}
+
+#get-specialities-form {
+    width: 90%;
+    text-align: center;
+    padding-top: 10px;
+    background: #b7b7b7;
+    border-radius: 5px;
+    height: fit-content;
+    padding-bottom: 20px;
+}
+
+.main-content select {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    background: rgba(255,255,255,.1);
+    border: none;
+    border-radius: 4px;
+    /*font-size: 15px;*/
+    margin: 0;
+    outline: 0;
+    padding: 10px;
+    width: 95%;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    background-color: #e8eeef;
+    color:#8a97a0;
+    -webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+    margin-bottom: 30px;
+}
+
+.main-content select:focus{
+    background: #d2d9dd;
+}
+
+.main-content select{
+    -webkit-appearance: menulist-button;
+}
+
+
+.main-content input[type="submit"] {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    position: relative;
+    display: block;
+    /*padding: 19px 39px 18px 39px;*/
+    padding: 4px 8px;
+    color: #FFF;
+    margin: 0 auto;
+    background: #1abc9c;
+    font-size: 20px;
+    text-align: center;
+    font-style: normal;
+    width: 20%;
+    border: 1px solid #16a085;
+    border-width: 1px 1px 3px;
+}
+.main-content input[type="submit"]:hover
+{
+    margin: 0 auto;
+    background: #109177;
+}

@@ -1,0 +1,102 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: #cfddea;
+}
+.box{
+    width: 300px;
+    padding: 40px;
+    position: absolute;
+    border-radius: 10px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #c090ff;
+    text-align: center;
+}
+.box h1{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.box input[type = "text"],.box input[type = "password"]{
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+.box input[type = "text"]:focus,
+.box input[type = "password"]:focus{
+    width: 280px;
+    border-color: #2ecc71;
+}
+
+.box select {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    background: rgba(255,255,255,.1);
+    border: none;
+    border-radius: 4px;
+    margin: 0;
+    outline: 0;
+    padding: 10px;
+    width: 70%;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    background-color: #e8eeef;
+    color:#8a97a0;
+    -webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+    margin-bottom: 30px;
+}
+
+.box select:focus{
+    background: #d2d9dd;
+}
+
+.box select{
+    -webkit-appearance: menulist-button;
+}
+
+
+.box input[type = "submit"]{
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+.box input[type = "submit"]:hover{
+    background: #2ecc71;
+}
+
+.box span{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    color: aliceblue;
+}
+
+.box h4 > a {
+    text-decoration: none;
+    color: wheat;
+}
+
+#lang-choice h3{
+    display: block;
+    font-weight: 500;
+    color: #fff;
+}
